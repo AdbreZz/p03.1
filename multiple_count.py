@@ -27,3 +27,9 @@ def run_tests():
 
 # Edit this code
 def mult_count(n):
+    
+    for i in range(1, n + 1):
+        if i % 5 == 0 or i & 7 == 0 or i & 11 == 0:
+            total = total + 1
+            
+    print(total)
