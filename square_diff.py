@@ -43,7 +43,7 @@ def sq_diff(n):
     total = total * total
     
     for k i range(1, n + 1):
-        score = score + i * i * i
+        score = score + i * i
         
     print(total - score)
         
