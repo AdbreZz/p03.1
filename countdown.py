@@ -38,3 +38,8 @@ def run_tests():
 
 # Edit this code
 def countdown(n):
+    
+    for i in range(1, n + 1, -1):
+        print(i)
+        
+    print("Go!")
